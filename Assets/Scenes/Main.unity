@@ -2519,7 +2519,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0149193965, y: 5.7279817e-19, z: -9.727258e-18, w: -0.9998888}
   m_LocalPosition: {x: -0.57913923, y: 0.108735085, z: -0.017675519}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410597343}
@@ -4331,6 +4331,7 @@ MonoBehaviour:
   holdInteract: 0
   multipleUse: 1
   isInteractable: 1
+  camerDistanceMultiplier: 2.5
   lockCamera: {fileID: 1096754557}
   crosshair: {fileID: 612665185}
   attachPoint: {fileID: 963847732}
@@ -8414,7 +8415,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0149193965, y: 5.7279817e-19, z: -9.727258e-18, w: -0.9998888}
   m_LocalPosition: {x: -1.1571393, y: 0.108735085, z: -0.017675519}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410597343}
@@ -10435,6 +10436,7 @@ MonoBehaviour:
   holdInteract: 0
   multipleUse: 1
   isInteractable: 1
+  camerDistanceMultiplier: 2.5
   lockCamera: {fileID: 1096754557}
   crosshair: {fileID: 612665185}
   attachPoint: {fileID: 254699040}
@@ -11339,6 +11341,7 @@ MonoBehaviour:
   holdInteract: 0
   multipleUse: 1
   isInteractable: 1
+  camerDistanceMultiplier: 2.5
   lockCamera: {fileID: 1096754557}
   crosshair: {fileID: 612665185}
   attachPoint: {fileID: 659348550}
@@ -12199,7 +12202,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0149193965, y: 5.7279817e-19, z: -9.727258e-18, w: -0.9998888}
   m_LocalPosition: {x: 0.5248604, y: 0.108735085, z: -0.017675519}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410597343}
@@ -12327,7 +12330,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0149193965, y: 5.7279817e-19, z: -9.727258e-18, w: -0.9998888}
   m_LocalPosition: {x: 1.068861, y: 0.108735085, z: -0.017675519}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410597343}
@@ -12813,6 +12816,7 @@ MonoBehaviour:
   holdInteract: 0
   multipleUse: 1
   isInteractable: 1
+  camerDistanceMultiplier: 2.6
   lockCamera: {fileID: 1096754557}
   crosshair: {fileID: 612665185}
   attachPoint: {fileID: 1019151014}
@@ -13056,9 +13060,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096754553}
   serializedVersion: 2
-  m_LocalRotation: {x: -9.727257e-18, y: 0.9998887, z: -0.0149193965, w: 5.727981e-19}
+  m_LocalRotation: {x: -9.727258e-18, y: 0.9998888, z: -0.014919397, w: 5.7279817e-19}
   m_LocalPosition: {x: 1.068861, y: 0.109032154, z: 0.486}
-  m_LocalScale: {x: 2.5, y: 2.5000005, z: 2.5}
+  m_LocalScale: {x: 2.4999986, y: 2.5, z: 2.4999993}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410597343}
@@ -13844,6 +13848,7 @@ MonoBehaviour:
   holdInteract: 0
   multipleUse: 1
   isInteractable: 1
+  camerDistanceMultiplier: 2.5
   lockCamera: {fileID: 1096754557}
   crosshair: {fileID: 612665185}
   attachPoint: {fileID: 1846013813}
@@ -19827,7 +19832,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0149193965, y: 5.7279817e-19, z: -9.727258e-18, w: -0.9998888}
   m_LocalPosition: {x: -0.011138916, y: 0.108735085, z: -0.017675519}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410597343}

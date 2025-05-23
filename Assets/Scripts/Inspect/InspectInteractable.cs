@@ -10,7 +10,8 @@ public class InspectInteractable : InteractableBase
 
     [Header("Inspect Settings")]
     Camera mainCamera;
-
+    [SerializeField] float camerDistanceMultiplier = 2.5f;
+    Vector3 cameraOffset;
     InteractionController interactionController;
     [SerializeField] Camera lockCamera;
     [SerializeField] private Image crosshair;
@@ -44,6 +45,8 @@ public class InspectInteractable : InteractableBase
 
         originalPosition = transform.position;
         originalRotation = transform.rotation;
+
+        cameraOffset =  camerDistanceMultiplier * (attachPoint.position - transform.position) - new Vector3(0, 0.05f, 0);
 
     }
 
@@ -94,7 +97,10 @@ public class InspectInteractable : InteractableBase
         else
         {
             // move the lock camera to face the object
-            lockCamera.transform.position = new Vector3(transform.position.x, lockCamera.transform.position.y, lockCamera.transform.position.z);
+            lockCamera.transform.position = transform.position + cameraOffset;
+            lockCamera.transform.LookAt(attachPoint.position);
+            // lockCamera.transform.localRotation = attachPoint.localRotation;
+            // lockCamera.transform.Rotate(0, 180, 0);
             interactionController.SwapCamera(lockCamera);
             transform.position = attachPoint.position;
             transform.rotation = attachPoint.rotation;
